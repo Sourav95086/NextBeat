@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="MainBacground">#000000</color>
+    <color name="listcolor">#3A3838</color>
+    <color name="textcolor">#ffff</color>
+    <color name="waitScreen">#023349</color>
+</resources>

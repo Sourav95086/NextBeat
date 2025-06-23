@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScanSongActivity"
+    android:background="@color/waitScreen"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/waitScreen"
+        >
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+    android:orientation="vertical"
+    android:background="@drawable/custum_edit_text"
+    android:layout_marginHorizontal="30dp"
+    android:elevation="8dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Beat"
+        android:textColor="@color/textcolor"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        >
+    </TextView>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp">
+    </ProgressBar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scanning Files"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:gravity="center"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="please wait"
+        android:gravity="center"
+        >
+    </TextView>
+
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+    android:background="@color/waitScreen"
+        >
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

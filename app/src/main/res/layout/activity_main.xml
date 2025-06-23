@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/MainBacground"
+   >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Beat"
+        android:textColor="@color/textcolor"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/appname">
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/custum_edit_text"
+        android:hint="🔍   Search Here "
+        android:padding="15dp"
+        android:layout_below="@+id/appname"
+        >
+    </EditText>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:layout_above="@+id/boutom"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/textcolor"
+        android:layout_above="@id/boutom"
+        android:layout_marginHorizontal="20dp"
+        >
+    </View>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/boutom"
+    android:orientation="horizontal"
+    android:padding="25dp"
+
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Day Mode"
+            android:textSize="20sp"
+            android:textColor="@color/textcolor"
+            android:textStyle="bold"
+            android:gravity="right">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+      <Switch
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/nightmode">
+      </Switch>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Night Mode"
+            android:textSize="20sp"
+            android:textColor="@color/textcolor"
+            android:textStyle="bold"
+            android:gravity="left">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>
