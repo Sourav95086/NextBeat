@@ -81,4 +81,8 @@ A sleek, offline Android music player app built with Java and Android SDK. NextB
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/NextBeat-Music-Player.git
+
+
+
+
+   📬 Connect With Me 💼 LinkedIn https://www.linkedin.com/feed/update/urn:li:activity:7342897757558370307/
